@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "password generator",
   "main": "passgen.js",
+  "bin": {
+    "passgen": "passgen.js"
+  },
   "scripts": {
     "start": "node passgen.js"
   },
@@ -11,7 +14,8 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "clipboardy": "^3.0.0",
-    "commander": "^9.2.0"
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.2"
   },
   "type": "module"
 }
