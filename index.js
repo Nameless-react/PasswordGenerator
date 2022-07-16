@@ -57,7 +57,7 @@ if (save) {
     fs.open(path.join(`${os.homedir}/Desktop`, `${name}.txt`), "a", 0o666, (e, id) => {
         fs.write(id, `${generate}\n`, null, "utf-8", () => {
             fs.close(id, () => {
-                console.log(chalk.green(`Password saved to ${os.homedir}/Desktop/${name}.txt`))
+                console.log(chalk.green(`Password saved to ${os.homedir}/Desktop/${name}.txt/`))
             })
         })
     })
