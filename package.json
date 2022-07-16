@@ -2,12 +2,14 @@
   "name": "passgen",
   "version": "1.0.0",
   "description": "password generator",
-  "main": "passgen.js",
+  "main": "index.js",
   "bin": {
-    "passgen": "passgen.js"
+    "passgen": "index.js"
   },
   "scripts": {
-    "start": "node passgen.js"
+    "start": "node index.js",
+    "test": "vitest",
+    "coverage": "vitest --coverage"
   },
   "author": "Joel Garcia",
   "license": "ISC",
@@ -17,5 +19,10 @@
     "commander": "^9.2.0",
     "inquirer": "^8.2.2"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "c8": "^7.11.3",
+    "mock-stdin": "^1.0.0",
+    "vitest": "^0.18.0"
+  }
 }
