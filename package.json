@@ -11,7 +11,7 @@
     "test": "vitest",
     "coverage": "vitest --coverage"
   },
-  "author": "Joel Garcia",
+  "author": "Joel Garcia Rojas",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.1",
@@ -22,7 +22,7 @@
   "type": "module",
   "devDependencies": {
     "c8": "^7.11.3",
-    "mock-stdin": "^1.0.0",
+    "inquirer-test": "^2.0.1",
     "vitest": "^0.18.0"
   }
 }

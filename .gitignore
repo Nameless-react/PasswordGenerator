@@ -2,3 +2,4 @@ node_modules
 .gitignore
 coverage
 algo.js
+.DS_Store
